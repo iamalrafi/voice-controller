@@ -1,0 +1,15 @@
+OPTIONAL - only needed if you want the fully-offline Vosk voice model.
+
+1. Download "vosk-model-small-en-us-0.15" from https://alphacephei.com/vosk/models
+2. Unzip it.
+3. Copy everything INSIDE the unzipped folder (the folders am, conf, graph, ivector and the README file)
+   into THIS folder (model-en-us), so you end up with:
+
+     model-en-us/am/...
+     model-en-us/conf/...
+     model-en-us/graph/...
+     model-en-us/ivector/...
+
+4. Build the app again. The app will detect the model automatically.
+
+If you skip this, the app still works: it uses your phone's own offline speech recognizer instead.

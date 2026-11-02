@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Voice Control</string>
+    <string name="service_description">Lets Voice Control tap, type, scroll and open apps for you when you give a voice command. Everything stays on your phone.</string>
+</resources>
